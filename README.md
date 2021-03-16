@@ -14,7 +14,7 @@ Kernel板主要基于安可信的ESP-12S（后者基于乐鑫ESP8266），为Hom
 
 ## 0x2 外观尺寸
 
-![image-20210316152753108](https://raw.githubusercontent.com/ColdeZhang/PicGo/master/image-20210316152753108.png)
+![image-20210316181923068](https://raw.githubusercontent.com/ColdeZhang/PicGo/master/image-20210316181923068.png)
 
 ## 0x3 管脚定义
 
