@@ -6,6 +6,8 @@
 
 Kernel板主要基于安信可的ESP-12S（后者基于乐鑫ESP8266），为HomeKit智能家居开发准备了一些基础电路。因此更适合没有太多电路基础的新手着手进行Homekit智能家居的开发。相比于ESP-01在保留必须的一部分功能后尽可能的引出了更多的可用IO口（6个），使之可以适应更复杂的项目开发，并且拥有更加稳定的网络连接。项目基于Apple Homekit与ESP8266，并且全部开源。
 
+该核心板全部文件托管在：[Github仓库](https://github.com/ColdeZhang/Kernel_Board)
+
 该核心板配套的代码教程参见：[ESP8266-Homekit 模板代码](https://github.com/ColdeZhang/Esp8266_Homekit_Template)
 
 该核心板配套的扩展版系列目前有：？？、？？、？？、？？
