@@ -168,32 +168,6 @@ F 3 "~" H 7650 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J1
-U 1 1 6049A723
-P 4000 3200
-F 0 "J1" H 3892 2775 50  0000 C CNN
-F 1 "TTL" H 3892 2866 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 4000 3200 50  0001 C CNN
-F 3 "~" H 4000 3200 50  0001 C CNN
-	1    4000 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 6049DE5E
-P 4200 3000
-F 0 "#PWR0110" H 4200 2750 50  0001 C CNN
-F 1 "GND" V 4205 2872 50  0000 R CNN
-F 2 "" H 4200 3000 50  0001 C CNN
-F 3 "" H 4200 3000 50  0001 C CNN
-	1    4200 3000
-	0    -1   -1   0   
-$EndComp
-Text GLabel 4200 3300 2    50   Input ~ 0
-TXD
-Text GLabel 4200 3200 2    50   Input ~ 0
-RXD
-$Comp
 L Kernel-rescue:ESP-12S-RF_Module U1
 U 1 1 6049875F
 P 5450 3750
@@ -268,7 +242,7 @@ $Comp
 L Device:R R5
 U 1 1 604EF1A5
 P 5850 5000
-F 0 "R5" V 5643 5000 50  0000 C CNN
+F 0 "R5" V 5750 4850 50  0000 C CNN
 F 1 "10k" V 5734 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5950 5000 50  0000 C CNN
 F 3 "~" H 5850 5000 50  0001 C CNN
@@ -351,17 +325,6 @@ IO4
 Text GLabel 4150 4600 2    50   Input ~ 0
 IO2
 $Comp
-L power:+3.3V #PWR0109
-U 1 1 6049D3BD
-P 4200 3100
-F 0 "#PWR0109" H 4200 2950 50  0001 C CNN
-F 1 "+3.3V" V 4215 3228 50  0000 L CNN
-F 2 "" H 4200 3100 50  0001 C CNN
-F 3 "" H 4200 3100 50  0001 C CNN
-	1    4200 3100
-	0    1    1    0   
-$EndComp
-$Comp
 L Switch:SW_SPDT SW1
 U 1 1 6048DEAF
 P 6950 3250
@@ -408,5 +371,42 @@ F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 5300 5200 50  0000 C CNN
 F 3 "~" H 5300 5200 50  0001 C CNN
 	1    5300 5000
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 6049D3BD
+P 4200 3100
+F 0 "#PWR0109" H 4200 2950 50  0001 C CNN
+F 1 "+3.3V" V 4215 3228 50  0000 L CNN
+F 2 "" H 4200 3100 50  0001 C CNN
+F 3 "" H 4200 3100 50  0001 C CNN
+	1    4200 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 4200 3200 2    50   Input ~ 0
+RXD
+Text GLabel 4200 3300 2    50   Input ~ 0
+TXD
+$Comp
+L power:GND #PWR0110
+U 1 1 6049DE5E
+P 4200 3000
+F 0 "#PWR0110" H 4200 2750 50  0001 C CNN
+F 1 "GND" V 4205 2872 50  0000 R CNN
+F 2 "" H 4200 3000 50  0001 C CNN
+F 3 "" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 6049A723
+P 4000 3200
+F 0 "J1" H 3892 2775 50  0000 C CNN
+F 1 "TTL" H 3892 2866 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 4000 3200 50  0001 C CNN
+F 3 "~" H 4000 3200 50  0001 C CNN
+	1    4000 3200
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
