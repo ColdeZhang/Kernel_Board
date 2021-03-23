@@ -1,6 +1,6 @@
 # Homekit智能家居开发板-核心板（Kernel）
 
-![image-20210323084657702](https://raw.githubusercontent.com/ColdeZhang/PicGo/master/image-20210323084657702.png)
+![image-20210317145540965](https://raw.githubusercontent.com/ColdeZhang/PicGo/master/image-20210317145540965.png)
 
 ## 0x0 总体概述
 
@@ -12,13 +12,9 @@ Kernel板主要基于安信可的ESP-12S（后者基于乐鑫ESP8266），为Hom
 
 该核心板配套的扩展版系列目前有：？？、？？、？？、？？
 
-
-
+> 在0.1版本中Flash（烧写）模式被称为Upload（上传）模式
+>
 > 从1.0版本开始新增USB-Type-C接口支持供电+烧写程序，无需外接TTL转USB
-
-
-
-此页面只显示最新版本开发板的资料，旧版本请移步至具体版本的对应文件夹：[Ver_0_X](https://github.com/ColdeZhang/Kernel_Board/tree/main/Ver_0_X)
 
 
 
@@ -64,7 +60,7 @@ Reset按键可以实行一键重启，免除了切换模式时需要拔插电源
 
 ## 0x3 外观尺寸
 
-![image-20210323084205867](https://raw.githubusercontent.com/ColdeZhang/PicGo/master/image-20210323084205867.png)
+![image-20210317150846065](https://raw.githubusercontent.com/ColdeZhang/PicGo/master/image-20210317150846065.png)
 
 ## 0x4 管脚定义
 
@@ -74,7 +70,7 @@ Reset按键可以实行一键重启，免除了切换模式时需要拔插电源
 
 ## 0x5 原理图
 
-![image-20210323084055685](https://raw.githubusercontent.com/ColdeZhang/PicGo/master/image-20210323084055685.png)
+![image-20210317150128367](https://raw.githubusercontent.com/ColdeZhang/PicGo/master/image-20210317150128367.png)
 
 
 
