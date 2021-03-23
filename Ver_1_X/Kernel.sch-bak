@@ -549,4 +549,26 @@ F 3 "" H 5100 3850 50  0001 C CNN
 	1    5450 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 6058410D
+P 3950 3200
+F 0 "J5" H 4058 3381 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4058 3290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3950 3200 50  0001 C CNN
+F 3 "~" H 3950 3200 50  0001 C CNN
+	1    3950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 605849A0
+P 4150 3200
+F 0 "#PWR?" H 4150 3050 50  0001 C CNN
+F 1 "+5V" V 4165 3328 50  0000 L CNN
+F 2 "" H 4150 3200 50  0001 C CNN
+F 3 "" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
